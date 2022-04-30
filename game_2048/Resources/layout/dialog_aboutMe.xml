@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="vertical"
+   >
+
+    
+<TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+        android:padding="20dp"
+      android:text=
+        "
+hello, my name is noam and i programed this game. i know... it has some bugs, but i like it. soo.. about me, i live in binyamina(for now) and i like programing and computers in general.
+
+so.. now about the game, the game 2048 is a nice fun game for spending time, here are the rules: you just need to move the tiles and every time you move one, another tile pops up in a random manner anywhere in the box. When two tiles with the same number on them collide with one another as you move them, they will merge into one tile with the sum of the numbers written on them initially.
+        "
+      android:textColor="#000"
+      android:textSize="20sp"
+        />
+</LinearLayout>
+            
+    

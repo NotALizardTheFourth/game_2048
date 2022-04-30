@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="vertical"
+   >
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:textSize="20sp"
+      android:gravity="center"
+       android:paddingTop="25dp"
+      android:textColor="#001"
+      android:id="@+id/tvName"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+  <Button
+      android:layout_width="300dp"
+      android:layout_height="75dp"
+      android:layout_gravity="center"
+      android:text="start game"
+      android:id="@+id/btnStart"
+       />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <Button
+      android:layout_width="300dp"
+      android:layout_height="75dp"
+      android:layout_gravity="center"
+      android:text="leader board"
+      android:id="@+id/btnLeaderBoard"
+       />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+        <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="music volium:"
+      android:textColor="#000"
+      android:textSize="20sp"
+      android:layout_gravity="center"
+        />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/white"
+        android:id="@+id/sb"
+        />
+<TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="battary left: "
+      android:textColor="#000"
+      android:textSize="20sp"
+      android:layout_gravity="center"
+        android:id="@+id/tvBattary"
+        />
+</LinearLayout>
+            
+    
